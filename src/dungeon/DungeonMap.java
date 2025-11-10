@@ -30,14 +30,30 @@ public class DungeonMap {
         }
     }
 
-    public char getCell(int x, int y) { return map[x][y]; }
-    public void setCell(int x, int y, char c) { map[x][y] = c; }
-    public int getRows() { return map.length; }
-    public int getCols() { return map[0].length; }
+    public char getCell(int x, int y) {
+        return map[x][y];
+    }
+    public void setCell(int x, int y, char c) {
+        map[x][y] = c;
+    }
+    public int getRows() {
+        return map.length;
+    }
+    public int getCols() {
+        return map[0].length;
+    }
 
-    public List<Point> getKeys() { return keyPositions; }
-    public List<Point> getDoors() { return doorPositions; }
-    public Point getExit() { return exitPos; }
+    public List<Point> getKeys() {
+        return keyPositions;
+    }
+    public List<Point> getDoors() {
+        return doorPositions;
+    }
+    public Point getExit() {
+        return exitPos;
+    }
 
-    public char[][] getMap() { return map; }
+    public char[][] getMap() {
+        return map;
+    }
 }

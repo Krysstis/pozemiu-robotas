@@ -76,7 +76,13 @@ public class DungeonGame {
     }
 
 
-    public DungeonMap getMap() { return dungeonMap; }
-    public Player getPlayer() { return player; }
-    public int getVision() { return vision; }
+    public DungeonMap getMap() {
+        return dungeonMap;
+    }
+    public Player getPlayer() {
+        return player;
+    }
+    public int getVision() {
+        return vision;
+    }
 }

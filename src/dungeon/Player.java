@@ -14,18 +14,40 @@ public class Player {
         this.y = startY;
     }
 
-    public int getX() { return x; }
-    public int getY() { return y; }
-    public void move(int dx, int dy) { x += dx; y += dy; }
-    public boolean isAlive() { return alive; }
-    public boolean hasWon() { return won; }
-    public int getEnergy() { return energy; }
-    public boolean hasKey1() { return hasKey1; }
-    public boolean hasKey2() { return hasKey2; }
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
+    public void move(int dx, int dy) {
+        x += dx; y += dy;
+    }
+    public boolean isAlive() {
+        return alive;
+    }
+    public boolean hasWon() {
+        return won;
+    }
+    public int getEnergy() {
+        return energy;
+    }
+    public boolean hasKey1() {
+        return hasKey1;
+    }
+    public boolean hasKey2() {
+        return hasKey2;
+    }
 
-    public void setAlive(boolean a) { alive = a; }
-    public void setWon(boolean w) { won = w; }
-    public void useEnergy() { energy--; }
+    public void setAlive(boolean a) {
+        alive = a;
+    }
+    public void setWon(boolean w) {
+        won = w;
+    }
+    public void useEnergy() {
+        energy--;
+    }
 
     public void obtainKey() {
         if (!hasKey1) hasKey1 = true;
