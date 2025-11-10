@@ -66,7 +66,6 @@ public class DungeonGame {
             }
         }
 
-        // --- VISADA perkeliame žaidėją, jei jis dar gyvas ---
         if (player.isAlive()) {
             dungeonMap.setCell(player.getX(), player.getY(), ' ');
             player.move(dx, dy);
