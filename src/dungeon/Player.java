@@ -26,7 +26,6 @@ public class Player {
     public void setAlive(boolean a) { alive = a; }
     public void setWon(boolean w) { won = w; }
     public void useEnergy() { energy--; }
-    public void addEnergy(int e) { energy += e; }
 
     public void obtainKey() {
         if (!hasKey1) hasKey1 = true;
