@@ -7,7 +7,7 @@ public class Player {
     private boolean hasKey2;
     private boolean alive = true;
     private boolean won = false;
-    private int energy = 70;
+    private int energy = 80;
 
     public Player(int startX, int startY) {
         this.x = startX;
